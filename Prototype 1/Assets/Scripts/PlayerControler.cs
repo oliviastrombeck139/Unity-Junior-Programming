@@ -18,8 +18,13 @@ public class PlayerControler : MonoBehaviour
     void Update()
     {
         // We'll move the vehicle forward
+
+        // Moves vehicle forward/back
         transform.Translate(Vector3.forward * Time.deltaTime * speed * moveInput.y);
-        transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * moveInput.x);
+
+        // Moves vehicle left/right
+        transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * moveInput.x);
+
         moveInput = moveAction.ReadValue<Vector2>();
     }
 }
