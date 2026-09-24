@@ -2122,6 +2122,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControler
   speed: 15
+  turnSpeed: 0
+  moveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 65eb4a4e-a8a5-4875-af31-c4354d21ddb4
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!54 &1599085125
 Rigidbody:
   m_ObjectHideFlags: 0
