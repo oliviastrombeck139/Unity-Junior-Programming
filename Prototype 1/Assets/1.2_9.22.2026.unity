@@ -2122,7 +2122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControler
   speed: 15
-  turnSpeed: 0
+  turnSpeed: 50
   moveAction:
     m_Name: Move
     m_Type: 0
@@ -2212,6 +2212,7 @@ MonoBehaviour:
       m_Action: Move
       m_Flags: 8
     m_Flags: 0
+  moveInput: {x: 0, y: 0}
 --- !u!54 &1599085125
 Rigidbody:
   m_ObjectHideFlags: 0
