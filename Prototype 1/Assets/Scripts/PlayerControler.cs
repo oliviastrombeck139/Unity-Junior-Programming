@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerControler : MonoBehaviour
 {
     //Movement tuning (editable in inspector)
-    public float speed = 10.0f;
+    public float speed = 2.0f;
     public float turnSpeed;
     // Input system action esposed in inspector for binding (WASD/arrow keys)
     public InputAction moveAction;
@@ -24,10 +24,10 @@ public class PlayerControler : MonoBehaviour
         // We'll move the vehicle forward
 
         // Moves vehicle forward/back along local Z using the y component
-        transform.Translate(Vector3.forward * Time.deltaTime * speed * moveInput.y);
+        transform.Translate(moveInput.y * speed * Time.deltaTime * Vector3.forward);
 
         // Rotate around local Y (yaw) using the x component
-        transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * moveInput.x);
+        transform.Rotate(moveInput.x * turnSpeed * Time.deltaTime * Vector3.up);
 
         moveInput = moveAction.ReadValue<Vector2>();
     }

@@ -1010,9 +1010,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0232a093d67e448b7a80e945acf8e227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  rotationSpeed: 0
-  verticalInput: 5
+  speed: 1
+  rotationSpeed: 5
+  verticalInput: 0
+  moveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d5cb53f6-e8b1-4e8f-aa6c-fe95323e0c6b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 1D Axis
+      m_Id: 0073c256-4933-4995-bf4f-6db2c7507054
+      m_Path: 1DAxis
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: negative
+      m_Id: 835730ad-a190-4db2-8a9d-d32542beacc4
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: positive
+      m_Id: d5052969-2518-46f0-af10-896296c91b7d
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: 1D Axis
+      m_Id: 4aaf4cf0-5e77-4f6b-9ccd-750488afb52c
+      m_Path: 1DAxis
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: negative
+      m_Id: 96fb18c4-5d24-4d6c-a1a7-ac54ac7f80fd
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: positive
+      m_Id: 5d89a9c5-0775-4e4b-a3f1-3e2e7fe30d8c
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    m_Flags: 0
 --- !u!1 &899755176
 GameObject:
   m_ObjectHideFlags: 0
