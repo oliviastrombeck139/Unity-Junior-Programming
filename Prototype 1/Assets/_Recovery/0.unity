@@ -1011,8 +1011,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  rotationSpeed: 50
-  verticalInput: 1
+  rotationSpeed: 5
+  verticalInput: 0
   moveAction:
     m_Name: Move
     m_Type: 0

@@ -8,6 +8,7 @@ public class PlayerControllerX : MonoBehaviour
     public float speed = 2.0f;
     public float rotationSpeed;
     public float verticalInput;
+   
     // WASD/arrow key input
     public InputAction moveAction;
 
