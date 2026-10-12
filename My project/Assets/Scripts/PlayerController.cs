@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
     public InputAction moveAction;
     public Vector2 moveInput;
     public float speed = 10.0f;
+    public float xRange = 15.0f;
+    public float rightBoundary = 15.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,9 +18,14 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x < -10)
+        if (transform.position.x < -xRange)
         {
-            transform.position = new Vector3(-10, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
+        }
+
+        if (transform.position.x > xRange)
+        {
+            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
         moveInput = moveAction.ReadValue<Vector2>();
 
