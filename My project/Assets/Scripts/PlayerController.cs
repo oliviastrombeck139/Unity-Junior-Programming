@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
 
         if(fireAction.triggered)
         {
-            Debug.Log("FIRED A PIZZA!");
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
 }
