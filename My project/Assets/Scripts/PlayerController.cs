@@ -9,11 +9,13 @@ public class PlayerController : MonoBehaviour
     public float xRange = 15.0f;
     public float rightBoundary = 15.0f;
     public GameObject projectilePrefab;
+    public InputAction fireAction;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         moveAction.Enable();
+        fireAction.Enable();
     }
 
     // Update is called once per frame
