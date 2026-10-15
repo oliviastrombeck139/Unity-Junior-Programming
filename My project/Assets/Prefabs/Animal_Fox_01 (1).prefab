@@ -839,6 +839,7 @@ GameObject:
   - component: {fileID: 6225469500782155331}
   - component: {fileID: 7150849456260999387}
   - component: {fileID: 7988854078720482275}
+  - component: {fileID: 2246333042575878651}
   m_Layer: 0
   m_Name: Animal_Fox_01 (1)
   m_TagString: Untagged
@@ -908,6 +909,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 15
+--- !u!114 &2246333042575878651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155476285630274036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27df80db9e4f081429184bfe74ea0459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
 --- !u!1 &7709027383265044589
 GameObject:
   m_ObjectHideFlags: 0
