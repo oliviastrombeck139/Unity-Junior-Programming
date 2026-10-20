@@ -5,6 +5,8 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject[] animalPrefabs;
     public InputAction spawnAction;
+    public int animalIndex; 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,7 +18,7 @@ public class SpawnManager : MonoBehaviour
     {
         if(spawnAction.triggered)
         {
-            Instantiate(animalPrefabs[0], new Vector3(0, 0, 20), animalPrefabs[0].transform.rotation);
+            Instantiate(animalPrefabs[animalIndex], new Vector3(0, 0, 20), animalPrefabs[animalIndex].transform.rotation);
         }
     }
 }
