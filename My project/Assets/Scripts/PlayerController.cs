@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     public InputAction moveAction;
     public Vector2 moveInput;
-    public float speed = 10.0f;
+    public float speed = 20.0f;
     public float xRange = 15.0f;
     public float rightBoundary = 15.0f;
     public GameObject projectilePrefab;

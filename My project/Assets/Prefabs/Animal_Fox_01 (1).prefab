@@ -840,6 +840,7 @@ GameObject:
   - component: {fileID: 7150849456260999387}
   - component: {fileID: 7988854078720482275}
   - component: {fileID: 2246333042575878651}
+  - component: {fileID: 616503750456223557}
   m_Layer: 0
   m_Name: Animal_Fox_01 (1)
   m_TagString: Untagged
@@ -921,6 +922,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27df80db9e4f081429184bfe74ea0459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &616503750456223557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155476285630274036}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13961406, y: 0.23575373, z: 0.39435282}
+  m_Center: {x: -0.008540464, y: 0.11492717, z: 0.0060277465}
 --- !u!1 &7709027383265044589
 GameObject:
   m_ObjectHideFlags: 0
