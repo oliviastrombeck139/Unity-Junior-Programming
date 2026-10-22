@@ -316,7 +316,7 @@ MonoBehaviour:
   speed: 10
   xRange: 15
   rightBoundary: 15
-  projectilePrefab: {fileID: 1506999999}
+  projectilePrefab: {fileID: 798516638228542591, guid: 02886ae7fcc41574eadb3ec0870447e9, type: 3}
   fireAction:
     m_Name: Fire
     m_Type: 0
@@ -745,16 +745,6 @@ Transform:
   - {fileID: 425805627}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1173664676 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2289941494227316158, guid: 2abdf523e99c74642b86041e2beb1f93, type: 3}
-  m_PrefabInstance: {fileID: 4344113160901838099}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1506999999 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 798516638228542591, guid: 02886ae7fcc41574eadb3ec0870447e9, type: 3}
-  m_PrefabInstance: {fileID: 7515334003617957269}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,11 +835,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1705854224 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6922841254578749705, guid: b85c8f77f67e2f245ba7f638b9578b60, type: 3}
-  m_PrefabInstance: {fileID: 5666178414229722885}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1724350448
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,9 +865,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
   animalPrefabs:
-  - {fileID: 1955612168}
-  - {fileID: 1173664676}
-  - {fileID: 1705854224}
+  - {fileID: 6922841254578749705, guid: b85c8f77f67e2f245ba7f638b9578b60, type: 3}
+  - {fileID: 7155476285630274036, guid: ce96ecd7a14f204408edab969842b51d, type: 3}
+  - {fileID: 2289941494227316158, guid: 2abdf523e99c74642b86041e2beb1f93, type: 3}
   spawnAction:
     m_Name: Spawn
     m_Type: 0
@@ -915,11 +900,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1955612168 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7155476285630274036, guid: ce96ecd7a14f204408edab969842b51d, type: 3}
-  m_PrefabInstance: {fileID: 5329034503096272037}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4344113160901838099
 PrefabInstance:
   m_ObjectHideFlags: 0
