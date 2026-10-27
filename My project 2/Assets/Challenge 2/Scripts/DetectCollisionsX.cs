@@ -8,5 +8,7 @@ public class DetectCollisionsX : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
+        // Print if something collides
+        Debug.Log("Collision");
     }
 }

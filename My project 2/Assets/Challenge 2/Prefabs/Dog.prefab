@@ -1783,7 +1783,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8241448880392677113}
   - component: {fileID: 8241448880396301057}
-  - component: {fileID: 7909671227663004546}
   m_Layer: 0
   m_Name: SM_RhodesianRidgeback_01
   m_TagString: Untagged
@@ -1911,27 +1910,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.004246086, y: -0.034129083, z: 0.07987481}
     m_Extent: {x: 0.056649, y: 0.09925, z: 0.14296237}
   m_DirtyAABB: 0
---- !u!65 &7909671227663004546
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8241448880392918983}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.113298036, y: 0.19850002, z: 0.27493608}
-  m_Center: {x: -0.004246086, y: 0.09925001, z: -0.010026169}
 --- !u!1 &8241448880392920215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5557,9 +5535,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8241448880392688289}
   - component: {fileID: 8241448880400496855}
-  - component: {fileID: 8241448879431697764}
   - component: {fileID: 8241448879431697766}
   - component: {fileID: 353968393887968187}
+  - component: {fileID: 6316896488972209675}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Dog
@@ -5641,27 +5619,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!65 &8241448879431697764
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8241448880393145375}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.11581425, y: 1.9382042, z: 3.9043822}
-  m_Center: {x: 0.0050662817, y: -0.10076409, z: 0.104161456}
 --- !u!114 &8241448879431697766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5687,6 +5644,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd56477307ae34a53ab47afc77a08392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &6316896488972209675
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241448880393145375}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.14508528, y: 0.20416604, z: 0.29598725}
+  m_Center: {x: -0.01048469, y: 0.1280247, z: 0.02567112}
 --- !u!1 &8241448880393145945
 GameObject:
   m_ObjectHideFlags: 0
